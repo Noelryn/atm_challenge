@@ -47,7 +47,7 @@ class Atm
     end
 
     def add_bills(amount)
-        denominations = [20, 10, 5]
+        denominations  = [20, 10, 5]
         bills = []
         denominations.each do |bill|
             while amount - bill >= 0
