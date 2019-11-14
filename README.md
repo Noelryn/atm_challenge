@@ -19,13 +19,13 @@ Require Date constant
 
 Load the person.rb file
 
-```load "../lib/person.rb"```
+```load "./lib/person.rb"```
 
 Load atm.rb and account.rb files
 
-```load "../lib/atm.rb"```
+```load "./lib/atm.rb"```
 
-```load "../lib/account.rb"```
+```load "./lib/account.rb"```
 
 Running the tests
 After you fork the repository, run bundle install in your Terminal and make sure you are in the project folder. That should install RSPEC on your computer.
@@ -51,4 +51,4 @@ To create an ATM, run
 
 To withdraw funds, run
 
-```person.withdraw_funds(amount:  , pin:  , atm: atm)```
+```person.withdraw(amount:  , pin:  , atm: atm)```
