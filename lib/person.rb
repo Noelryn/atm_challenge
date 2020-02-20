@@ -3,7 +3,7 @@ require './lib/atm.rb'
 require 'date'
 
 class Person
-     attr_accessor :name, :cash, :account, :date
+    attr_accessor :name, :cash, :account, :date
     
     def initialize(attrs = {})
         @name = person_name(attrs[:name])
@@ -49,7 +49,7 @@ class Person
     end
 
     def undefined_name
-         raise "Name required"
+        raise "Name required"
     end
 
     def missing_account
